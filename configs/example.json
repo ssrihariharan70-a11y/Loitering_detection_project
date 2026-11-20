@@ -1,0 +1,19 @@
+{
+  "camera_id": "CAM_001",
+  "iou_threshold": 0.3,
+  "max_lost_s": 2.0,
+  "stillness_window_s": 3.0,
+  "still_tolerance": 0.10,
+  "slow_speed": 0.25,
+  "zones": [
+    {
+      "name": "Restricted Area",
+      "polygon": [[0, 0], [2560, 0], [2560, 1440], [0, 1440]],
+      "max_dwell_s": 300,
+      "exit_grace_s": 3,
+      "cooldown_s": 600,
+      "require_stationary": true,
+      "min_stationary_s": 5
+    }
+  ]
+}
